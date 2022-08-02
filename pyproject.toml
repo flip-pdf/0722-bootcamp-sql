@@ -24,10 +24,9 @@ docopt = { version="^0.6.2", optional = true}
 bootcamp = ["ipykernel","mo-sql-parsing","docopt"]
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^7.1.2"
 autopep8 = "^1.6.0"
 pylint = "^2.13.9"
-pyspark = "^3.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
